@@ -22,6 +22,9 @@ function cambiocolor(){
     /*document.write(11 + 6);*//*
     resultado.syle.color="blue";
 }*/
+window.alert("Hola respetado cliente!");
+var nombre=prompt("Introduzca su nombre: ");
+
 function validateForm() {
     let mom = document.forms["miFormulario"]["momento"].value;
     let grados = document.forms["miFormulario"]["gradosup"].value;
