@@ -24,7 +24,7 @@ function cambiocolor(){
 }*/
 window.alert("Hola respetado cliente!");
 var nombre=prompt("Introduzca su nombre: ");
-
+document.getElementById("pruebain").innerHTML = nombre;
 function validateForm() {
     let mom = document.forms["miFormulario"]["momento"].value;
     let grados = document.forms["miFormulario"]["gradosup"].value;
