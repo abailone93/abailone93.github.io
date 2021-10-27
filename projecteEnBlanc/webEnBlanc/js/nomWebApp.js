@@ -9,8 +9,37 @@
     document.getElementById("m").innerHTML =
     myMoto.name + " " + myMoto.year;
 }*/
+console.log("Holaaaaaaaaaa");/*
 window.alert("Hola, bienvenido gran y respetado cliente!");
-var numero = prompt("Introduce numero: ");
 confirm("pulsa el boton aceptar para continuar");
-document.getElementById("pruebainner").innerHTML = 11 + 6 + $numero;
-document.write(11 + 6);
+var numero;
+numero = prompt("Introduce numero: ");
+var resultado = 11 + numero;
+
+var resul = document.getElementById("pruebain");
+resul.innerHTML = resultado;
+function cambiocolor(){
+    /*document.write(11 + 6);*//*
+    resultado.syle.color="blue";
+}*/
+function validateForm() {
+    let mom = document.forms["miFormulario"]["momento"].value;
+    let grados = document.forms["miFormulario"]["gradosup"].value;
+    if (mom == "" || grados == "") {
+      alert("Tienes que escoger alguna opcion");
+      return false;
+    }
+    else{
+        var respuesta = "Los datos son correctos, quieres continuar?";
+        respuesta=confirm("Los datos son correctos, quieres continuar?");
+    
+        if(respuesta==true || respuesta==true || respuesta==true){
+            
+        }
+        else{
+            alert("Ha sido un placer, noble cliente");
+            return false;
+        }
+
+    }
+}
