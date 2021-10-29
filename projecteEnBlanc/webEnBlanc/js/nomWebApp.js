@@ -22,7 +22,9 @@ function cambiocolor(){
     /*document.write(11 + 6);*//*
     resultado.syle.color="blue";
 }*/
-window.alert("Hola respetado cliente!");
+/*-------------------------------------------------------------------*/
+
+/*window.alert("Hola respetado cliente!");
 var nombre=prompt("Introduzca su nombre: ");
 document.getElementById("pruebain").innerHTML = nombre;
 function validateForm() {
@@ -45,4 +47,5 @@ function validateForm() {
         }
 
     }
-}
+}*/
+
