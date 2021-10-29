@@ -9,7 +9,7 @@
     document.getElementById("m").innerHTML =
     myMoto.name + " " + myMoto.year;
 }*/
-console.log("Holaaaaaaaaaa");/*
+/*console.log("Holaaaaaaaaaa");
 window.alert("Hola, bienvenido gran y respetado cliente!");
 confirm("pulsa el boton aceptar para continuar");
 var numero;
@@ -48,4 +48,9 @@ function validateForm() {
 
     }
 }*/
+/*------------------------------------------------------*/
+
+/*Persona edat amb sort exercici final píndola*/
+/*Incloure concepte de cadascuna de les preguntes és a dir strings,
+numbers, arrays i dates*/
 
