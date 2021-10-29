@@ -1,6 +1,7 @@
-window.alert("Hola Alert!");
+/*window.alert("Hola Alert!");
 window.prompt("Introduce numero: ");
-confirm("pulsa el boton aceptar para continuar");
+confirm("pulsa el boton aceptar para continuar");*/
+
 /*get Date*/
 const d = new Date();
 const mesos = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"];
@@ -23,6 +24,7 @@ document.getElementById("milisegons").innerHTML = milsecs.getMilliseconds();
 
 const weekday = new Date();
 document.getElementById("diasemana").innerHTML = weekday.getDay();
+/*------------------------------------------------------------------*/
 /*set Date*/
 const day = new Date();
 day.setDate(10);
@@ -44,3 +46,4 @@ secs.setSeconds(15);
 
 const milsecs = new Date();
 milsecs.setMilliseconds(678);
+/*------------------------------------------------------------------*/
