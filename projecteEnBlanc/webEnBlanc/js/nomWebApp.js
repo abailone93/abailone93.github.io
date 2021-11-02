@@ -65,7 +65,7 @@ function displayPersona() {
     persona[0].nom + " " + persona[0].edat + "<br>" +
     persona[1].nom + " " + persona[1].edat + "<br>" +
     persona[2].nom + " " + persona[2].edat;
-  };
+};
 function myFunction() {
     persona.sort(function(a, b){
         let x = a.type.toLowerCase();
@@ -73,4 +73,5 @@ function myFunction() {
         if (x < y) {return -1;}
         if (x > y) {return 1;}
         return 0;
-    });
+    })
+};
