@@ -54,3 +54,23 @@ function validateForm() {
 /*Incloure concepte de cadascuna de les preguntes és a dir strings,
 numbers, arrays i dates*/
 
+const persona = [
+    {nom:"Alex", edat:22},
+    {nom:"Alba", edat:18},
+    {nom:"David", edat:21}
+];
+displayPersona();
+function displayPersona() {
+    document.getElementById("demo").innerHTML =
+    persona[0].nom + " " + persona[0].edat + "<br>" +
+    persona[1].nom + " " + persona[1].edat + "<br>" +
+    persona[2].nom + " " + persona[2].edat;
+  };
+function myFunction() {
+    persona.sort(function(a, b){
+        let x = a.type.toLowerCase();
+        let y = b.type.toLowerCase();
+        if (x < y) {return -1;}
+        if (x > y) {return 1;}
+        return 0;
+    });
