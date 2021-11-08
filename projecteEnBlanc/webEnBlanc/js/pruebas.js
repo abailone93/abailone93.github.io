@@ -2,7 +2,7 @@
 window.prompt("Introduce numero: ");
 confirm("pulsa el boton aceptar para continuar");*/
 
-/*get Date*/
+/*get Date
 const d = new Date();
 const mesos = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"];
 document.getElementById("demo").innerHTML = mesos[d.getMonth()];
@@ -24,8 +24,8 @@ document.getElementById("milisegons").innerHTML = milsecs.getMilliseconds();
 
 const weekday = new Date();
 document.getElementById("diasemana").innerHTML = weekday.getDay();
-/*------------------------------------------------------------------*/
-/*set Date*/
+------------------------------------------------------------------*/
+/*set Date
 const day = new Date();
 day.setDate(10);
 
@@ -46,4 +46,15 @@ secs.setSeconds(15);
 
 const milsecs = new Date();
 milsecs.setMilliseconds(678);
-/*------------------------------------------------------------------*/
+------------------------------------------------------------------*/
+/*callbacks fulltreball*/
+function funcionCallbacks(callback,callback2){
+    function callback(){
+        document.getElementById("pruebacall").innerHTML = 'Probant callbacks';
+    };
+    function callback2(){
+        document.getElementById("pruebacall2").innerHTML = 'Callback2';
+    }
+};
+
+/*----------------------------------------------------------------*/

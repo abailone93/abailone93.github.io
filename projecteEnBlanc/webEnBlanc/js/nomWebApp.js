@@ -52,7 +52,7 @@ function validateForm() {
 
 /*Persona edat amb sort exercici final píndola*/
 /*Incloure concepte de cadascuna de les preguntes és a dir strings,
-numbers, arrays i dates*/
+numbers, arrays i dates
 
 //creacio array persona,edat.
 const persona = [
@@ -82,4 +82,4 @@ function myFunction() {
 //funció que ordena per la edat
 function personaEdat(){
     persona.sort(function(a, b){return a.edat - b.edat});
-};
+};*/
