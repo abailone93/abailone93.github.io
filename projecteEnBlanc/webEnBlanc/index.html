@@ -65,6 +65,48 @@
             <h3 id="pruebacall"></h3>
             <p id="pruebacall2"></p>
             <script src="./js/pruebas.js"></script>
+            <form action="./pepe.php" method="GET" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="id_nom" name="name_nom">
+                </div> 
+                <div class="form-group row">
+                    <label for="cbxCurso" class="col-sm-2 col-form-label">Curso</label>
+                    <div class="col-sm-10">
+                         <select name="cbxCurso" id="cbxCurso" class="custom-select">
+                              <option value="daw2a">DAW2A</option>
+                              <option value="daw2b">DAW2B</option>
+                         </select>
+                    </div>
+                </div> 
+
+                <div class="form-group row">
+                    <label for="chxIdioma" class="col-sm-2 col-form-label">Idiomas</label>
+                    <div class="col-sm-10">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                                                 <input type="checkbox" name="chxIdioma[]" id="chxCatalan"
+                                                 class="custom-control-input" value="Catalán">
+                                                 <label for="chxCatalan" class="custom-control-label">Catalán</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" name="chxIdioma[]" id="chxEspanyol"
+                    class="custom-control-input" value="Español"> 
+                                                 <label for="chxEspanyol" class="custom-control-label">Español</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" name="chxIdioma[]" id="chxIngles"
+                    class="custom-control-input" value="Inglés">
+                                                 <label for="chxIngles" class="custom-control-label">Inglés</label>
+                                                </div>
+                    </div>
+                </div>    
+                <div>
+                    <label for="archivo">Archivo a Subir:</label>
+                    <input type="file" name="archivo"/>
+                    
+                </div>
+                <button type="submit" >Enviar</button>
+            </form>
         </div>
     </body>
 </html>
