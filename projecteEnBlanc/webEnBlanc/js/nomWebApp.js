@@ -83,3 +83,4 @@ function myFunction() {
 function personaEdat(){
     persona.sort(function(a, b){return a.edat - b.edat});
 };*/
+
