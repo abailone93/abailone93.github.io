@@ -14,9 +14,17 @@ function fuera() {
     document.getElementById("fecha").innerHTML += "No hagas como que no has visto nada y clica el boton!<br>";
 }
 //onload
-function programa() {
+setInterval(function programa() {
     alert("Programa iniciado");
-}
-function imagencargada(){
+}, 2000);
+setTimeout(function imagencargada(){
     alert("Imagen cargada");
+}, 3000);
+/*-----------------------------------------------------*/
+var lista = document.getElementById("add_lista");
+lista.addEventListener("click", añadirTarea);
+function añadirTarea(){
+    document.getElementById("tasca").innerHTML += "Aqui está tu nueva tarea <br>";
+    await sleep(2000);
+    print("Hola sleep");
 }
