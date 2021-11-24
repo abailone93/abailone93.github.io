@@ -11,7 +11,8 @@ function domElement(){
 }
 /*DOM DOCUMENT*/
 function domDocument(){
-
+    var x = document.getElementById("titulin");
+    x.style.color = "blue";
 }
 /*DOM EVENTS*/
 function domEvents(){
