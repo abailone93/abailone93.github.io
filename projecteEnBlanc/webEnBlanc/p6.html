@@ -15,30 +15,35 @@
     </head>
     <body onload="estilosSpan()">
         <div class="container" id="pri">
-            <div>
-                <h1>Query Selector All</h1>
+            <div class="row">
+                <h1>Elements del DOM Query Selector</h1>
             </div>
-            <div id="probandoqueryselector">
-                <span id="id5" class="clase" title="Azul">Azul</span>
-                <span id="id4" class="clase" title="Verde">Verde</span>
-                <span id="id3" class="clase" title="Naranja">Naranja</span>
-                <span id="id2" class="clase" title="Lila">Lila</span>
-                <span id="id1" class="clase" title="Rojo">Rojo</span>
+            <div id="probandoqueryselector" class="row">
+                <span id="id5" class="clase col-2" title="Azul">Azul</span>
+                <span id="id4" class="clase col-2" title="Verde">Verde</span>
+                <span id="id3" class="clase col-2" title="Naranja">Naranja</span>
+                <span id="id2" class="clase col-2" title="Lila">Lila</span>
+                <span id="id1" class="clase col-2" title="Rojo">Rojo</span>
             </div>
-            <div id="nuevo">
-                <p id="new" title="pregunta">Quieres saber mi nombre?</p>
-                <p id="new" title="aclaracion">Es el nombre del admin no el tuyo xD</p>
-                <button onclick="crearElemento()">Saber mi nombre</button>         
-            </div>
-            <ul class="lista-aleatoria">
-                <li id="lista-item" data-category="moto">Ducati</li>
-                <li id="lista-item" data-category="sitio">Nueva York</li>
-                <li id="lista-item" data-category="moto">Yamaha</li>
+            
+            <br>
+            <ul class="lista-aleatoria row">
+                <li id="lista-item" data-category="moto" class="col-4">Ducati</li>
+                <li id="lista-item" data-category="sitio" class="col-4">Nueva York</li>
+                <li id="lista-item" data-category="moto" class="col-4">Yamaha</li>
             </ul>
             <p id="borrame">me borras please?</p>
-            <button onclick="modificarElemento()">Modificar estilos</button>
-            <button onclick="seleccionarElemento()">Seleccionar Elemento</button>
-            <button onclick="eliminarElemento()">Borrar</button>
+            <button onclick="modificarElemento()" class="btn btn-primary">Modificar estilos</button>
+            <button onclick="seleccionarElemento()" class="btn btn-secondary">Seleccionar Elemento</button>
+            <button onclick="eliminarElemento()" class="btn btn-danger">Borrar</button>
+            <div>
+
+            </div>
+            <div id="nuevo" class="row">
+                <p id="new" title="pregunta" class="col-5">Quieres saber mi nombre?</p>
+                <p id="new" title="aclaracion" class="col-7">Es el nombre del admin no el tuyo xD</p>
+                <button onclick="crearElemento()" class="btn btn-warning col-auto">Saber mi nombre</button>         
+            </div>
         </div>
     </body>
 </html>
