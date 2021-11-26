@@ -22,8 +22,10 @@ function seleccionData(){
 function seleccionHtml(){
     var x = 17;
     var y = 10;
-    var calculo = x*y;
-    
+    var z = 3;
+    var suma = x + y + z;
+    var calculo = suma / 3;
+    return calculo;
 }
 /*function media(){
   var total=0, res, numDatos, item;
