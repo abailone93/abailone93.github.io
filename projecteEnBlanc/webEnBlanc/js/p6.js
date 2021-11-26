@@ -1,4 +1,4 @@
-document.getElementById('id1').title // Rojo
+/*document.getElementById('id1').title // Rojo
 document.querySelector('#probandoqueryselector .clase').title // Azul
 document.querySelector('#probandoqueryselector .clase[title^=L]').title // Lila
 
@@ -15,4 +15,4 @@ var spanes = document.querySelectorAll('#probandoqueryselector span.clase');
         spanes[i].style.border = "solid 2px";
     }
 
-}
+}*/
