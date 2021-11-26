@@ -25,7 +25,11 @@ function seleccionHtml(){
     var z = 3;
     var suma = x + y + z;
     var calculo = suma / 3;
-    return calculo;
+    var calculator = document.createElement("p");
+    var contenido = document.createTextNode(calculo);
+    var cal = document.getElementById("calculoRandom");
+    contenido.appendChild(calculator);
+    //return calculo;
 }
 /*function media(){
   var total=0, res, numDatos, item;

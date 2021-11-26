@@ -7,5 +7,4 @@ function crearElemento(){
     var primero = document.getElementById("pri");
     primero.appendChild(contenedor);
     document.body.appendChild(primero);
-    
 }
