@@ -20,5 +20,17 @@ function seleccionData(){
     }
 }
 function seleccionHtml(){
+    var x = 17;
+    var y = 10;
+    var calculo = x*y;
     
 }
+/*function media(){
+  var total=0, res, numDatos, item;
+  numDatos = arguments.length;
+    for (item = 0; item < numDatos; item++){
+        total += arguments[item];
+    }
+    res = total/numDatos;
+    return res;
+}*/
