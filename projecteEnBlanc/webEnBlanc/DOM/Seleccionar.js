@@ -40,3 +40,4 @@ function seleccionHtml(){
     res = total/numDatos;
     return res;
 }*/
+
