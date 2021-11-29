@@ -16,3 +16,28 @@ var spanes = document.querySelectorAll('#probandoqueryselector span.clase');
     }
 
 }*/
+/*switch (new Date().getDay()) {
+    case 0:
+        dia = "Domingo";
+      break;
+    case 1:
+        dia = "Lunes";
+      break;
+    case 2:
+        dia = "Martes";
+      break;
+    case 3:
+        dia = "Miercoles";
+      break;
+    case 4:
+        dia = "Jueves";
+      break;
+    case 5:
+        dia = "Viernes";
+      break;
+    case 6:
+        dia = "Sabado";
+}*/
+/*for (let i = 0; i < 5; i++) {
+    texto += "Numero: " + i + "<br>";
+}*/
