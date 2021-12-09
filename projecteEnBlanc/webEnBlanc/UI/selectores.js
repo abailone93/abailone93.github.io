@@ -11,4 +11,9 @@ function seleccionSelectores(){
         selector2[i].style.backgroundColor = "red";
         selector2[i].style.color = "white";
     }
+    
+    let selector = document.querySelectorAll('*[sexo*="mujer"]')
+    for (let i=0; i <= selector.length; i++){
+        selector[i].style.backgroundColor = "orange";
+    }
 }
