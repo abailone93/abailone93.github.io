@@ -16,8 +16,8 @@ function seleccionSelectores(){
     for (let i=0; i <= selector3.length; i++){
         selector3[i].style.backgroundColor = "orange";
     }
-    //let selector4 = document.querySelectorAll('div[class="resultado"]')
+    //let selector4 = document.querySelectorAll('div[.resultado]')
     //selector4.push("19");
-    //let selector5 = document.querySelectorAll('div[class="resultado"]')
+    //let selector5 = document.querySelectorAll('div[.resultado]')
     //selector5.push("19,21");
 }
