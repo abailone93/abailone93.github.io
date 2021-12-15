@@ -12,8 +12,10 @@ function seleccionSelectores(){
         selector2[i].style.color = "white";
     }
     
-    let selector = document.querySelectorAll('*[sexo*="mujer"]')
-    for (let i=0; i <= selector.length; i++){
-        selector[i].style.backgroundColor = "orange";
+    let selector3 = document.querySelectorAll('*[sexo*="mujer"]')
+    for (let i=0; i <= selector3.length; i++){
+        selector3[i].style.backgroundColor = "orange";
     }
+    //let selector4 = document.querySelectorAll('class="resultado"')
+    //selector4.push("19");
 }
