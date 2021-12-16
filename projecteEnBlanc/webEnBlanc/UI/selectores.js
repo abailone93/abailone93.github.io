@@ -1,15 +1,14 @@
 function seleccionSelectores(){
     /*let select;
     select = document.getElementsByTagName('tr');*/
-    let selector = document.querySelectorAll('tr[sexo*="mujer"]')
+    let selector = document.querySelectorAll('tr[sexo*=mujer]')
     for (let i=0; i <= selector.length; i++){
         selector[i].style.backgroundColor = "#75D860";
     }
-
-    let selector2 = document.querySelectorAll('tr[sexo="hombre"]')
-    for (let i=0; i <= selector2.length; i++){
-        selector2[i].style.backgroundColor = "red";
-        selector2[i].style.color = "white";
+    let selectorHombre = document.querySelectorAll('tr[sexo*=hombre]')
+    for (let i=0; i <= selectorHombre.length; i++){
+        selectorHombre[i].style.backgroundColor = "red";
+        selectorHombre[i].style.color = "white";
     }
     
     let selector3 = document.querySelectorAll('*[sexo*="mujer"]')
@@ -20,5 +19,5 @@ function seleccionSelectores(){
     //selector4.push("19");
     //let selector5 = document.querySelectorAll('div[.resultado]')
     //selector5.push("19,21");
-    
+    let selector6;
 }
