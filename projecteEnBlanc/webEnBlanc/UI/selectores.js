@@ -12,15 +12,15 @@ function cambiaHombres(){
     }
 }   
 function orangePush(){
-    let selector3 = document.querySelectorAll('*[sexo*="mujer"]')
+    let selector3 = document.querySelectorAll('*[sexo*=mujer]')
     for (let i=0; i <= selector3.length; i++){
         selector3[i].style.backgroundColor = "orange";
     }
 }
-function ns(){
+function edatBea(){
     //let selector4 = document.querySelectorAll('div[.resultado]')
     //selector4.push("19");
     //let selector5 = document.querySelectorAll('div[.resultado]')
     //selector5.push("19,21");
-    let selector6;
+    let selectorazo;
 }

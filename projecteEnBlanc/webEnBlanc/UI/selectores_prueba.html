@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectores Prueba</title>
+    <link rel="stylesheet" href="./estilos_selectores.css">
     <script src="./selectores.js"></script>
 </head>
-<body onload="seleccionSelectores(),cambiaHombres()">
-    <table >
+<body onload="seleccionSelectores()">
+    <table>
         <div id="jefe" sexo="mujer">
         Daniela
         </div>
@@ -24,6 +25,8 @@
         <tr sexo="mujer"><td>Carla</td><td>20</td></tr>
         <tr sexo="hombre"><td>Cosme</td><td>23</td></tr>
     </table>
+    <button onclick="cambiaHombres()">Cambia Hombres</button>
+    <button onclick="orangePush()">Orange</button>
     <div class="resultado">
         
     </div>
