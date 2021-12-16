@@ -20,4 +20,5 @@ function seleccionSelectores(){
     //selector4.push("19");
     //let selector5 = document.querySelectorAll('div[.resultado]')
     //selector5.push("19,21");
+    
 }
