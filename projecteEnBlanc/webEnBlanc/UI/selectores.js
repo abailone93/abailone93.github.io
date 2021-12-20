@@ -18,8 +18,9 @@ function orangePush(){
     }
 }
 function edatBea(){
-    //let selector4 = document.querySelectorAll('tr')
+    let selector4 = document.querySelectorAll('tr[sexo*=mujer] > td[19]');
     jQuery('div.resultado').append(jQuery('tr[sexo*=mujer > td[19]'));
+    selector4.insertAdjacentText("afterend","19");
     //jQuery('div.resultado').append('<td>19</td>');
     //let selector5 = document.querySelectorAll('div[.resultado]')
     //selector5.push("19,21");
