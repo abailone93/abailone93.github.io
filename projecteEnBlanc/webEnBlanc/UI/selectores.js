@@ -110,3 +110,33 @@ function consola(){
         console.log("No hay ningun elemento id que acabe por 'fe', gracias");
     }
 }
+
+//Mostrar una lista de los departamentos
+let botonDepartamentos = document.getElementById("botonListaDepartamentos");
+botonDepartamentos.addEventListener('click', mostrarListaDepartamentos);
+
+function mostrarListaDepartamentos(){
+    let departamentos = document.querySelectorAll("tr[data-departamento]");
+    let listaDepartamentos = document.getElementById("listaDepartamento");
+    listaDepartamentos.innerHTML = '<p>' + "Departamentos" + '<p>';
+    for(let departamento of departamentos){
+        listaDepartamentos.innerHTML += departamento.children[0].innerHTML + " - " + departamento.dataset.departamento + '<br>'; 
+    }
+}
+
+// Antigüedad personas lista
+let botonAntiguedad = document.getElementById("botonMediaAnys");
+ 
+botonAntiguedad.addEventListener('click', mostrarmediaAntiguedad);
+ 
+function mostrarMediaAntiguedad(){
+  let anys = document.querySelectorAll("tr[data-anyinicio]");
+  let mediaAntiguedad = document.getElementById("mediaAnys");
+  mediaAntiguedad.innerHTML = '<h3>' + "Media años antigüedad" + '</h3>';
+  let mediaAnys = 0;
+  for(let any of anys){
+    mediaAnys += parseInt(any.dataset.anyinicio);    
+  }
+  mediaAnys = mediaAnys / anys.length;
+  mediaAntiguedad.innerHTML += mediaAnys.toFixed(2) + '<br>';
+}
